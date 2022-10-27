@@ -11,8 +11,10 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 import os
 from pathlib import Path
-import dotenv
+
 import dj_database_url
+import django_on_heroku
+import dotenv
 
 dotenv.load_dotenv()
 
@@ -172,3 +174,5 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # CUSTOM CONFIGS
 
 AUTH_USER_MODEL = "accounts.Account"
+
+django_on_heroku.settings(locals())
