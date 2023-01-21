@@ -2,7 +2,7 @@
 Este é um sistema de gerenciamento de usuários e produtos desenvolvido com o framework Django, baseado em conceitos de programação orientada a testes (TDD) e utilizando Generic Views.
 
 ## Funcionalidades
-- Gerenciamento de usuários (criação, edição, listagem, listagem de um usario)
+- Gerenciamento de usuários (criação, edição, listagem, listagem de um usuario)
 - Gerenciamento de produtos (criação, edição, remoção)
 
 ## Como usar
