@@ -3,7 +3,7 @@ Este é um sistema de gerenciamento de usuários e produtos desenvolvido com o f
 
 ## Funcionalidades
 - Gerenciamento de usuários (criação, edição, listagem, listagem de um usuario)
-- Gerenciamento de produtos (criação, edição, remoção)
+- Gerenciamento de produtos (criação, edição, listagem, listagem de um produto)
 
 ## Como usar
 - Faça o clone do repositório em sua máquina local utilizando o comando: 
