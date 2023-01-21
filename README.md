@@ -6,8 +6,10 @@ Este é um sistema de gerenciamento de usuários e produtos desenvolvido com o f
 - Gerenciamento de produtos (criação, edição, remoção)
 
 ## Como usar
-- Faça o clone do repositório em sua máquina local utilizando o comando git clone https://github.com/seu_usuario/seu_repositorio.git
--  Crie um ambiente virtual para o projeto. Isso é importante para garantir que as dependências do projeto não interfiram com outros projetos em sua máquina. Para criar o ambiente virtual, execute o comando python -m venv nome_do_ambiente ou python3 -m venv nome_do_ambiente (dependendo da versão do Python instalada em sua máquina).
+- Faça o clone do repositório em sua máquina local utilizando o comando: 
+```git clone git@github.com:fjrjdev/crud_python_api.git```
+-  Crie um ambiente virtual para o projeto. Isso é importante para garantir que as dependências do projeto não interfiram com outros projetos em sua máquina. Para criar o ambiente virtual, execute o comando 
+```python -m venv nome_do_ambiente```
 - Ative o ambiente virtual. Para fazer isso, execute o comando source nome_do_ambiente/bin/activate no Linux/MacOS ou nome_do_ambiente\Scripts\activate no Windows.
 - Instale as dependências do projeto. Com o ambiente virtual ativado, execute o comando pip install -r requirements.txt para instalar todas as dependências listadas no arquivo requirements.txt.
 - Rode as migrações. Com as dependências instaladas, execute o comando python manage.py migrate para criar as tabelas necessárias no banco de dados.
