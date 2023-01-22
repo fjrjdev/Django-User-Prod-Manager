@@ -5,7 +5,8 @@ Este é um sistema de gerenciamento de usuários e produtos desenvolvido com o f
 - Gerenciamento de usuários (criação, edição, listagem, listagem de um usuario)
 - Gerenciamento de produtos (criação, edição, listagem, listagem de um produto)
 
-## Como usar
+## Iniciando o projeto
+
 - Faça o clone do repositório em sua máquina local utilizando o comando: 
 ```git clone git@github.com:fjrjdev/crud_python_api.git```
 -  Crie um ambiente virtual para o projeto. Isso é importante para garantir que as dependências do projeto não interfiram com outros projetos em sua máquina. Para criar o ambiente virtual, execute o comando 
@@ -16,6 +17,44 @@ Este é um sistema de gerenciamento de usuários e produtos desenvolvido com o f
 - Rode as migrações. Com as dependências instaladas, execute o comando ```python manage.py migrate``` para criar as tabelas necessárias no banco de dados.
 - Inicie o servidor. Para iniciar o servidor, execute o comando ```python manage.py runserver``` e aguarde até que o servidor esteja pronto.
 - Acesse a aplicação. Com o servidor iniciado, você pode acessar a aplicação digitando http://127.0.0.1:8000/ no seu navegador.
+
+## Iniciando o projeto com Docker
+
+<br>
+
+- **Etapa 1: clonar o repositório**
+
+```
+git clone git clone git@github.com:fjrjdev/crud_python_api.git
+```
+
+- **Etapa 2: Abra o diretório do repositório clonado**
+
+```
+cd Django-User-Prod-Manager
+```
+
+- **Etapa 3: Criar o aplicativo**
+
+```
+docker compose up --build
+```
+Esse comando criará as imagens e os contêineres necessários para o aplicativo.
+
+- **Step 4: Start the application**
+
+```
+docker compose up
+```
+
+- **Etapa 5: Acessar o aplicativo**
+
+```
+Visite http://localhost:3000/ no seu navegador da Web.
+
+Nota: Certifique-se de ter o docker em seu sistema antes de executar os comandos acima.
+```
+
 ## Testes
 Para executar os testes, utilize o comando ```python manage.py test.``` Isso irá executar todos os testes automatizados escritos para o projeto e exibir o resultado.
 
