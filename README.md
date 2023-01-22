@@ -8,7 +8,7 @@ Este é um sistema de gerenciamento de usuários e produtos desenvolvido com o f
 ## Iniciando o projeto
 
 - Faça o clone do repositório em sua máquina local utilizando o comando: 
-```git clone git@github.com:fjrjdev/crud_python_api.git```
+```git clone git@github.com:fjrjdev/Django-User-Prod-Manager.git```
 -  Crie um ambiente virtual para o projeto. Isso é importante para garantir que as dependências do projeto não interfiram com outros projetos em sua máquina. Para criar o ambiente virtual, execute o comando 
 ```python -m venv nome_do_ambiente```
 - Ative o ambiente virtual. Para fazer isso, execute o comando ```source nome_do_ambiente/bin/activate``` no Linux/MacOS ou ```nome_do_ambiente\Scripts\activate``` no Windows.
@@ -25,7 +25,7 @@ Este é um sistema de gerenciamento de usuários e produtos desenvolvido com o f
 - **Etapa 1: clonar o repositório**
 
 ```
-git clone git clone git@github.com:fjrjdev/crud_python_api.git
+git clone git@github.com:fjrjdev/Django-User-Prod-Manager.git
 ```
 
 - **Etapa 2: Abra o diretório do repositório clonado**
